@@ -1,0 +1,290 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+     background-color: #bbb;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: #dddddd;
+  margin: 0;
+  padding: 20px 5px;
+
+}
+
+.header{
+  background-color: #7F7F7F;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.header img{
+  height: inherit;
+}
+nav{
+  height: inherit;
+  display: inherit;
+  align-items: inherit;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  color: white;
+  height: inherit;
+  display: inherit;
+  align-items: inherit;
+  margin: 0;
+}
+
+li{
+  padding: 0;
+  height: inherit;
+  display: inherit;
+  align-items: inherit;
+}
+
+li a{
+  text-decoration: none;
+  padding:0px 10px;
+  height: inherit;
+  color:white;
+  display: flex;
+  align-items: inherit;
+  border-right: 1px solid rgba(90,90,90,.7);
+  border-left: 1px solid rgba(90,90,90,.7);
+  border-collapse: collapse;
+}
+
+.hero{
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #444444;
+
+}
+.hero p{
+  font-size: 1vw;
+  color: white;
+}
+
+.products{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.product{
+  background-color: white;
+  border:1px solid #dddddd;
+  border-radius: 10px;
+  margin: 10px 15px;
+  padding: 15px 10px;
+  width: 26%;
+  height: 350px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.product-details{
+  text-align: center;
+  width: 200px;
+
+}
+
+ .product-details a{
+  width: 200px;
+  text-decoration: none;
+  color:white;
+  padding: 5px 10px;
+  background-color: #111111;
+  border-radius: 10px;
+}
+
+.product-details a:hover{
+  background-color: rgba(1,1,1,.4);
+}
+.product img{
+  width: 50%;
+  height: 40%;
+  /* object-fit: cover; */
+
+}
+
+.about{
+  display: flex;
+  /* height: 180px; */
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #888888;
+}
+
+.about-details{
+  height: inherit;
+  display: flex;
+
+}
+.about-details p{
+  padding: 5px 15px;
+  font-size: 1.2vw;
+  width: 65%;
+  color: white;
+}
+.about-details img{
+  height: inherit;
+  width: 25%;
+  height: 80%;
+}
+
+.contact{
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  height: 250px;
+background-color: #999999;
+}
+
+.contact-inputs{
+  display: inherit;
+  width: inherit;
+  justify-content: flex-start;
+}
+
+.contact form{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 25%
+}
+.inputs input{
+  margin-bottom: 35px;
+  height: 29px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.contact-box{
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 70%;
+}
+
+.contact-box textarea{
+  width: 80%;
+  height: 80%;
+}
+
+.contact button{
+  margin-top: 10px;
+  width: 80px;
+}
+
+hr{
+  margin-bottom: 0;
+  padding: 0;
+}
+.address{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 250px;
+  background-color: #666666;
+}
+.address iframe{
+  width: 340px;
+  height: 85%;
+
+}
+
+.address p{
+  font-size: 20px;
+  padding-left: 20px;
+
+}
+
+.address-details{
+  margin-right: 150px;
+}
+
+footer{
+  background-color: #555555;
+  height: 65px;
+}
+
+.social-media{
+  height: 45px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  /* background-color: #888888; */
+}
+
+.social-media img{
+  height: 35px;
+  margin-right: 15px;
+
+}
+.creator{
+  display: flex;
+  justify-content: flex-end;
+
+  /* background-color: #444444; */
+}
+.creator p{
+  margin: 0;
+  color: #DDDDDD;
+}
+.go-top{
+  display: flex;
+  justify-content: center;
+  padding-top: 1px;
+}
+
+.go-top img{
+  width: 45px;
+ border-radius: 12px;
+}
+
+.go-top img:hover{
+  background: rgba(100,100,100,.3);
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: inherit;
+  justify-content: inherit;
+  flex-wrap: inherit;
+  display: inherit;
+  background-color: inherit;
+  align-items: inherit;
+  height: inherit;
+  padding-left: 10px;
+
+}
