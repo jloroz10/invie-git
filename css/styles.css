@@ -134,7 +134,7 @@ li a{
 .about-details{
   height: inherit;
   display: flex;
-
+  margin-bottom: 15px;
 }
 .about-details p{
   padding: 5px 15px;
@@ -144,8 +144,8 @@ li a{
 }
 .about-details img{
   height: inherit;
-  width: 25%;
-  height: 80%;
+  width: 35%;
+  height: 100%;
 }
 
 .contact{
